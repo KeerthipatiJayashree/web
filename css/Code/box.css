@@ -1,0 +1,26 @@
+
+
+div,p
+{
+    border: solid black;
+    box-sizing: border-box;
+    margin: 40px 40px;
+}
+p
+{
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+#mydiv1
+{
+    background-color: olivedrab;
+}
+#mydiv2
+{
+    background-color: lightskyblue;
+}
+#mydiv3
+{
+    background-color: orchid;
+}

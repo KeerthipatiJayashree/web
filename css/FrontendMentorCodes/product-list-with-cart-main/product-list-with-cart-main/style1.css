@@ -1,0 +1,57 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    height: 600px;
+    width: 600px;
+    /* border: solid red; */
+    margin-left: 30%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(3,auto);
+    gap: 3em;
+    /* display: flex; */
+}
+.box>img
+{
+    display: flex;
+    /* justify-content: center; */
+    border-radius: 5px;  
+    /* margin: 30px; */
+}
+button
+{
+    display: flex;
+    gap: 5px;
+}
+.btn
+{
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: -45px;
+    position: relative;
+    /* z-index: 1000em; */
+}
+.btn1
+{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: orangered;
+    color: white;
+    width: 115px;
+    /* width: max-content; */
+    /* max-width: max-content; */
+}
+.tiramisu
+{
+    display: flex;
+    /* flex-direction: row; */
+}

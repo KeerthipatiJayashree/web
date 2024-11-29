@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./demo.css">
+    <style>
+        div{
+            background-color:goldenrod;
+            
+        }
+    </style>
+</head>
+<body>
+    <div style="color: blue;">Jayashree</div>
+    <div class="firstDiv"
+    id="idDiv">Jayashree
+    </div>
+
+    <!-- <FORMATTING TAGS> -->
+
+    <b>Jayashree</b>
+    <br> 
+    <strong>shree</strong><br>
+    <i>shree</i><br>
+    <em>shree</em><br>
+    <u>shree</u><br>
+    <ins>shree</ins><br>
+    <mark>shree</mark><br>
+    k<sup>shree</sup><br>
+    k<sub>shree</sub><br>
+    <small>shree</small><br>
+    <q>shree</q><br>
+    <del>shree</del><br>
+
+    <audio controls muted>
+        <source src="./WhatsApp Audio.mp3.mpeg" type="audio/ogg">
+        <!--<source src="horse.mp3" type="audio/mpeg">-->
+      
+      </audio>
+      <a href="https://www.myntra.com/">myntra</a>
+      <img src="https://www.astronomy.com/wp-content/uploads/sites/2/2023/09/underfullmoon.jpeg" width="100px"
+      alt="image not found">
+
+      <!-- HTML FORMS -->
+
+      <form action="">
+        <label for="username">username:</label>
+        <input type="text" id = "username">
+        <br>
+        <br>
+        <label for="password">password:</label>
+        <input type="password" id="password">
+        <br>
+        <br>
+        <label for="java">java</label>
+        <input type="checkbox"id="java">
+        <label for="html">html</label>
+        <input type="checkbox" id="html">
+        <label for="c">c</label>
+        <input type="checkbox"id="c">
+        <br>
+        <br>
+        <button type="yes">yes</button>
+        <button type="no">no</button>
+    </form>
+        
+
+      <!--
+      <form>
+        <label for="username">userName</label>
+        <input type="text" name="username" id="username">
+    </form> -->
+
+    <form>
+        <fieldset>
+        <legend>Google forms</legend>
+        <label for="username">Name</label>
+        <input type="text" name="username" id="username">
+        <button type="submit">Submit</button>
+        </fieldset>
+        </form>
+<center>
+    <form>
+        <label for="fname">Name:</label>
+        <input type="text" id="name" name="name" value="Jayashree" disabled>
+        <br>
+        <br>
+        <label for="fname">Name:</label>
+        <input type="text" name="username" id="username" value="shree" readonly>
+    </form>
+</center>
+    <br>
+    <form>
+        <label for="country_code">Country code:</label>
+        <input type="text" id="country_code" name="country_code"pattern="[A-Za-z]{3}">
+        <input type="text" id="fname" name="fname" size="5">
+        <br>
+        <input type="text" id="pin" name="pin" minlength="4" size="4">
+        <input type="text" id="pin" name="pin" maxlength="4" size="4">
+    </form>
+    <br>
+    <form action="">
+        <label for="pwd">Password:</label>
+        <input type="password" id="pwd" name="pwd"
+        pattern="(?=. *\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+        title="Must contain at least one number, one uppercase, one lowercase, and at least 8 or more characters">
+        <input type="submit">
+    </form>
+      <br>
+    <form>
+        <label for="files">Select files:</label>
+        <input type="file" id="files" name="files" multiple>
+    </form>
+    <br>
+    <form>
+        <label for="datemax">Enter a date before 1980-01-01:</label>
+        <input type="date" id="datemax" name="datemax" max="1979-12-31">
+        <br><br>
+        <label for="datemin">Enter a date after 2000-01-01:</label>
+        <input type="date" id="datemin" name="datemin" min="2000-01-02">
+        <br><br>
+        <label for="quantity">Quantity (between 1 and 5):</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="5">
+    </form>
+
+    <audio src="./WhatsApp Audio.mp3.mpeg" controls muted loop preload="auto"></audio>
+    <br>
+    <video src ="./WhatsApp Video.mp4"controls muted loop width="300px"></video>
+
+    <!-- <marquee tags> -->
+        <marquee behavior ="scroll" direction = "right" bgcolor="blue" loop="2" scroll amount="5" > 
+            JAYASHREE...! 
+        </marquee>
+
+        <p>  
+            <span style="color:#8011e1;">  
+            In this page we use span.  
+            </span>  
+        </p> 
+        <label>    
+            Enter your favorite cricket player: Press any character <br>    
+            <input type="text" id="favCktPlayer" list="CktPlayers" title="cricket players">    
+            <datalist id="CktPlayers">    
+            <option value="Rahul Dravid">    
+            <option value="Brian Lara">    
+            <option value="Virat Kholi">     
+            <option value="Ricky Ponting">     
+            <option value="Shane Warne">     
+            <option value="Sachin Tendulakar">     
+            <option value="Shane Warne">     
+            <option value="Rohit Sharma">     
+            <option value="Donald Bradman">     
+            <option value="Saurav Ganguly ">     
+            <option value="AB diVilliers">     
+            <option value="MS.Dhoni">     
+            <option value="Adam Gilchrist">    
+            </datalist>    
+        </label>   
+
+</body>
+</html>

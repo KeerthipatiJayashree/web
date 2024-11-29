@@ -1,0 +1,23 @@
+/*body
+{
+    background-image: url('./WTC.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+}*/
+
+#mydiv
+{
+    /*font-size: 30px;*/
+    width: 50vw;
+    border: 1px solid;
+
+}
+h1
+{
+    font-size: 2em;  /* em compares parent value 30px*2em = 60*/
+    font-size: 1rem;  /* 1 rem = 16px*/
+    width: 50%;  /* 50% of 200px is 100 */
+}

@@ -1,0 +1,58 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div1
+{
+    height: 100px;
+    background-color: aliceblue;
+    color: red;
+    border: 2px solid red;
+    padding: 20px;
+    margin-top: 20px;
+}
+.div2
+{
+    /* width: 500px; */
+    background-color: azure;
+    color: forestgreen;
+    border: 2px solid red;
+    padding: 15px;
+}
+.div3
+{
+    background-color: azure;
+    color: blue;
+    padding: 20px;
+    border: 2px solid red;
+    height: 9em;
+    width: 18em;
+}
+.div4
+{
+    background-color: aliceblue;
+    color: blue;
+    border: 3px solid red;
+    height: 9em;
+    width: 18em;
+}
+.div5
+{
+    background-color: aliceblue;
+    color: blue;
+    border: 3px solid red;
+    height: 9em;
+    width: 18em;
+    padding: 15px;
+}
+.div6
+{
+    background-color: aliceblue;
+    color: blue;
+    border: 3px solid red;
+    height: 9em;
+    /* width: 18em; */
+    padding: 15px;
+}

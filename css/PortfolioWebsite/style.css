@@ -1,0 +1,291 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 1s ease;
+    scroll-behavior: smooth;
+}
+:root
+{
+    --color1:rgb(223, 73, 18);
+}
+header
+{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 20px 50px;
+    justify-content: space-between;     /*Makes two div's to move between*/
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+.logo
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 2em;
+}
+.logo img
+{
+    height: 40px;
+}
+.name span
+{
+    color: var(--color1)
+}
+.menu
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navigation
+{
+    display: flex;
+    gap: 15px;
+}
+.navigation a
+{
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+button
+{
+    background-color: var(--color1);
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.heading
+{
+    text-align: center;
+    font-size: 32px;
+    /* text-shadow: 2px 2px 3px var(--color1); */
+    background: linear-gradient(to right,var(--color1),rgb(235, 71, 12));
+    /* --webkit-background-clip:text; */
+    /* width: max-content; */
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.navigation a:hover  /*Menu*/
+{
+    color: var(--color1);
+}
+.btn:hover
+{
+    background-color: white;
+    color: var(--color1);
+}
+section
+{
+    padding: 50px 200px;
+}
+#banner
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.bannerleft
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.bannerleft h2
+{
+    font-size: 32px;
+}
+.bannerleft h2>span{
+    color: var(--color1);
+}
+.bannerleft
+{
+    font-size: 24px;
+}
+.buttons:nth-child(1)
+{
+    background-color: white;
+    color: var(--color1);
+}
+.buttons:nth-child(2)
+{
+    background-color: transparent;
+    border: none;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+#about
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#about>p
+{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pic
+{
+    height: 10em;
+    /* border-radius: 50px; */
+    clip-path: circle(50px);
+    filter: grayscale();
+}
+.pic:hover
+{
+    filter: none;
+}
+
+#skills
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+
+}
+#skills img
+{
+    height: 200px;
+    width: 200px;
+}
+#projects
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.project
+{
+    border: 1px solid black;
+    box-shadow: 2px 3px 2px #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.project img{
+    height: 280px;
+    border-radius: 20px;
+}
+#contact
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form
+{
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 3px 2px #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 300px;
+}
+input
+{
+    height: 35px;
+    /* width: 280px; */
+}
+textarea
+{
+    resize: none;
+}
+footer
+{
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+/* Media Queries Responsive images*/
+
+@media (max-width:570px)
+{
+    header
+    {
+        /* display: flex; */
+        flex-direction: column;
+    }
+    .menu
+    {
+        flex-direction: column;
+    }
+    .navigation
+    {
+        flex-direction: column;
+    }
+    #banner
+    {
+        flex-direction: column;
+    }
+    section{
+        padding: 10px;
+    }
+    #about
+    {
+        flex-direction: column;
+    }
+    #skills
+    {
+        grid-template-columns: repeat(2,1fr);
+    }
+    #projects
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media (max-width:571px) and (min-width:776px)
+{
+    header
+    {
+        /* display: flex; */
+        flex-direction: column;
+    }
+    .menu
+    {
+        flex-direction: column;
+    }
+    #banner
+    {
+        flex-direction: column;
+    }
+    section{
+        padding: 10px;
+    }
+    #about
+    {
+        flex-direction: column;
+    }
+    #skills
+    {
+        grid-template-columns: repeat(3,1fr);
+    }
+    #projects
+    {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width:848px) and (min-width:1080px)
+{
+    
+}

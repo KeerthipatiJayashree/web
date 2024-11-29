@@ -1,0 +1,38 @@
+.child
+{
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+}
+/* .child:first-child
+{
+    background-color: aqua;
+} */
+
+/* .child:nth-child(3),.child:nth-child(5)
+{
+    background-color: olivedrab;
+} */
+
+/* .child:nth-child(even)
+{
+    background-color: blue;
+} */
+ /* .child:nth-last-child(3)
+ {
+    background-color: palevioletred;
+ } */
+  /* .child:nth-last-child(odd)
+  {
+    background-color: blueviolet;
+  } */
+
+  /* p.child:nth-of-type(1)
+  {
+    background-color: red;
+  } */
+   
+  p.child:nth-last-of-type(1)
+  {
+    background-color: blue;
+  }

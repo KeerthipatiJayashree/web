@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegistrationForm</title>
+</head>
+<body>
+    <form action="main.java">
+        <fieldset>
+        <h3>ABC College</h3>
+        <h4>Student Registration Form</h4>
+        <label for="Student Name:">Student Name:</label>
+        <input type="text" placeholder="Full name" id="Student Name">
+        <br><br>
+        <label for="Father Name:">Father Name:</label>
+        <input type="text" placeholder="Enter Father's Name" id="Father Name">
+        <br><br>
+        <label for="Mother Name:">Mother Name:</label>
+        <input type="text" placeholder="Enter Mother's Name" id="Mother Name">
+        <br><br>
+        <label for="Gender">Gender:</label><br><br>
+        <label><input type="radio" name="Gender" value="Female">Female</label>
+        <br><br> <!-- name should be same while using radio buttons-->
+        <label><input type="radio" name="Gender" value="Male">Male</label>
+        <br><br>
+        <label><input type="radio" name="Gender" value="Others">Others</label>
+        <br><br>
+        <label for="Date of birth">Date of birth:</label>
+        <input type="date" id="Date of birth">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Enter email address" id="email">
+        <br><br>
+        <label for="pwd">Password:</label>
+        <input type="password" id="pwd"
+        pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$%*&])[A-Za-z\d@$%*&]{8,}" 
+        title="Password must be at least 8 characters long and include at least one uppercase letter, one lowercase letter, and one number." >
+        <br><br>
+        <label for="password">Re-type password:</label>
+        <input type="password" id="pwd">
+        <br><br>
+        <label Mobile No>Mobile No:</label>
+        <input type="tel" placeholder="Enter mobile number" id="Mobile No"
+        pattern="(?=. *\d).{10,}" title="Mobile number must be 10 digits long">
+        <br><br>
+        <label for="Department">Department:</label>
+        
+        <select name="Department">
+        <option value="Aerospace Engineering">Aerospace Engineering</option>
+        <option value="Civil Engineering">Civil Engineering</option>
+        <option value="Computer Science Engineering">Computer Science Engineering</option>
+        <option value="Electrical and Eectronic Engineering">Electrical and Eectronic Engineering</option>
+        <option value="Electronics and Communication Engineering">Electronics and Communication Engineering</option>
+        <option value="Mechanical Engineering"></option>
+        </select>
+        <br><br><hr>
+        <h3>Permanent Address:</h3>
+        <label for="state">State:</label>
+        <input type="text" placeholder="state" id="state"><br><br>
+        <label for="City">City:</label>
+        <input type="text" placeholder="city" id="city"><br><br>
+        <label for="Pincode">Pincode:</label>
+        <input type="text" placeholder="Pincode" id="Pincode"><br><br>
+        <input type="checkbox" id="terms">
+        <label for="terms"> I agree to Terms and Conditions </label><br><br>
+        <input type="submit" value="Register">   
+    </fieldset>
+    </form>
+</body>
+</html>

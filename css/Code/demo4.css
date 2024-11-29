@@ -1,0 +1,21 @@
+p
+{
+    font-size: 30px;
+}
+
+.mydiv
+{
+    /*background-color: red; */
+    /* solid means straight line*/
+    /* border: 10px double red; */
+    border: 10px ridge olivedrab;
+    border-bottom-right-radius: 30px;
+    box-sizing: border-box;
+    padding: 40px 50px;  /* 1st-top&bottom 2nd-left&right*/
+    border-top-left-radius: 30px; 
+    height: 200px;
+    width: 200px;
+    /*margin-left: 30px;*/
+
+    margin: 30px 20px;
+}

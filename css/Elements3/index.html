@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+</head>
+<style>
+
+.banner
+{
+    background-image: url('./Banner-section3.jpg'); /* Banner Image */
+    background-repeat: no-repeat;
+    background-size: cover;   /* Covers the entire section */
+    height: 100vh;   /* Full viewport height */
+    background-position: center; /* Center the image */
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+} 
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.content h1
+{
+    font-size: 50px;
+    color: whitesmoke;
+    margin-bottom: 0.5em;
+}
+.content p
+{
+    font-size: 20px;
+    color: whitesmoke;
+    margin-bottom: 1em;
+}
+.btn
+{
+    background-color: forestgreen; 
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+.btn:hover {
+    background-color: forestgreen; 
+}
+.navOnimage
+{
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex; 
+    justify-content: end;
+}
+.navlinks
+{
+    list-style: none;
+    display: flex;
+}
+.navlinks li 
+{
+    margin: 0 20px; 
+}
+.navlinks a
+{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.navlinks a:hover
+{
+    background-color: forestgreen;
+
+}
+</style>
+<body>
+    <section class="banner">
+        <div class="navOnimage">
+            <ul class="navlinks">
+                <li><a href="https://en.wikipedia.org/wiki/Wilderness">Home</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Wilderness">About</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Wilderness">Services</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Wilderness">Contact</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>Explore Nature</h1>
+            <p>Let your trip towards nature starts here</p>
+            <a href="https://en.wikipedia.org/wiki/Wilderness" class="btn">Get Started</a>
+        </div>
+    </section>   
+</body>
+</html>

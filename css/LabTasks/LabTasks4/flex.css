@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    padding: 10px;
+    flex-direction: column; 
+    height: 100vh;
+}
+
+.hdiv
+{
+    border: 1px solid red;
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+.nav
+{
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    height: 10em;
+    border: 1px solid blue;
+}
+.box
+{
+    border: 1px solid red;
+    height: 10em;
+    width: 10em;
+    border-radius: 5px;
+    padding:2px;
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.fdiv
+{
+    border: 1px solid gray;
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #headerdiv
+        {
+            border: 2px solid red;
+            text-align: center;
+            padding: 9px;
+            font-size: 30px;
+        }
+        #bodydiv
+        {
+            border: 2px solid blue;
+            margin-top: 5px;
+        }
+        #flexdiv div
+        {
+            border: 2px solid red ;
+            padding: 16px;
+            width: 40px;
+            margin: 5px;
+
+        }
+        #footerdiv
+        {
+            border: 2px solid red;
+            text-align: center;
+            padding: 9px;
+            font-size: 30px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!--header div-->
+    <div id="headerdiv">I am header</div>
+    <!--bodydiv-->
+    <div id="bodydiv" style="display:  flex; height: 500px;">
+        <div id="navdiv" style="height:488px; width: 200px; border: 2px solid blue; margin: 5px;">navigation Bar</div>
+        <div id="flexdiv" style="display: flex; height: 100px; margin: 5px;">
+            <div>flex 1</div>
+            <div>flex 2</div>
+            <div>flex 3</div>
+            <div>flex 4</div>
+            <div>flex 5</div>
+            <div>flex 6</div>
+            <div>flex 7</div>
+        </div>
+    </div>
+    <div id="footerdiv">I am footer</div>
+</body>
+</html>

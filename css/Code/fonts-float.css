@@ -1,0 +1,31 @@
+p
+{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+img
+{
+    /* float:right; */
+    float: left;
+}
+
+.box
+{
+    float: left;
+    height: 100px;
+    width: 100px;
+    background-color: olivedrab;
+    margin: 10px;
+    color: black;
+    font-size: 25px;
+    display: block;
+    /* display: inline; */
+    /* display: table; */
+}
+p
+{
+    clear: both;
+}

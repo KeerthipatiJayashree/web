@@ -1,0 +1,29 @@
+.l1
+{
+    background: linear-gradient(red,orange,yellow,green);
+    height: 100px;
+}
+.l2
+{
+    background: linear-gradient(red,orange, yellow, green, blue, purple, violet);
+    height: 100px;
+}
+.l3
+{
+    background: linear-gradient(red,green,blue);
+    height: 150px;
+}
+.l4
+{
+    background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    height: 70px;
+    color: gray;
+    display: flex;
+    justify-content: center;
+}
+.l5
+{
+    background: radial-gradient(green,lime,yellow,orange,red);
+    height: 200px;
+    width: 200px;
+}

@@ -1,0 +1,55 @@
+body
+{
+    background-color: black;
+    color: gray;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    color: white;
+    font-size: 3em;
+}
+.p1
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+.p2
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p3
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.p7
+{
+    text-align: right;
+}
+div>h1{
+    text-decoration: overline;
+}
+.p9
+{
+    text-decoration: line-through;
+}
+.p10
+{
+    text-decoration: underline;
+}
+.p11
+{
+    text-decoration: overline underline;
+}
+.p12
+{
+    text-transform: uppercase;
+}
+.p13
+{
+    text-transform: lowercase;
+}
+.p14
+{
+    text-transform: capitalize;
+}

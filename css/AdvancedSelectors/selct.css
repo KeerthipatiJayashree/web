@@ -1,0 +1,76 @@
+/* tag selector */
+
+/* div
+{
+    background-color: red;
+} */
+
+/* .parent
+{
+    border: 3px dotted black;
+} */
+
+/* #box
+{
+    border: 1px solid black;
+    box-shadow: 2px 3px black;
+} */
+
+ /* .parent>h1   > immediate child [h1] of a parent gets selected
+ {
+    background-color: olivedrab;
+ } */
+
+ /* .parent h1    [space allows to access any of the h1 descendant from parent]
+ {
+    background-color: olivedrab;
+ } */
+
+/* div+h1        [ adjacent sibling selector]
+{
+    background-color: olivedrab;
+} */
+.mydiv3
+{
+    background-color: blueviolet;
+    height: 150px;
+    width: 150px;
+}
+.mydiv3:hover
+{
+    background-color: olivedrab;
+    border-radius: 50%;
+}
+a
+{
+    color: black;
+}
+a:active
+{
+    color: yellow;
+}
+a:visited
+{
+    color: red;
+}
+/* input:required
+{
+    background-color: gold;
+} */
+input:optional
+{
+    background-color: orangered;
+}
+input:read-only
+{
+    color: black;
+    background-color: olivedrab;
+}
+input[type="text"]
+{
+    background-color: aqua;
+}
+/* p:not(.para)
+{
+    If there are 10 paras, all paras will be selected except the class para
+} */

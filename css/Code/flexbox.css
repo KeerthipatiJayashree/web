@@ -1,0 +1,36 @@
+.container
+{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    display: flex;
+    /* flex-direction: column; By default flex direction is Row*/
+    /* flex-direction: column-reverse; */
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* flex-flow:column-wrap;  settles in column and wraps*/
+    /* gap: 10px; */
+    /*flex-wrap: wrap-reverse;*/   /* How much height and width is needed is taken */
+    /* justify-content: center;  used to move element with main axis (row-X axis column-Y-axis)*/
+    /* allign content only works when flex is there */
+    /* align-items: center,end;  they move elements vertically*/
+
+}
+
+.box
+{
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    border: 1px solid white;  
+    color: white;
+    font-size: 30px;
+    /* margin: 10px; */
+}
+.box3
+{
+    /*order: -1;*/  /* -1 before 0 so it comes 1st*/
+    /*flex-shrink: 2;*/   /*Adjusts more than other*/
+    /* flex-grow: 8; */
+    flex-basis: 100px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="textshadow.css"> -->
+</head>
+<style>
+    h1
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    #h1
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 1px 2px 4px gray;
+    }
+    #h2
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 0px 0px 10px rgba(0, 0, 0,1.5);
+    }
+    #h3
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 2px 2px 0px red,2px -2px 0px green,2px 2px 0px,blue;
+    }
+    #h4
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        text-shadow: 2px 2px 15px magenta,2px 2px 15px magenta,2px 2px 15px magenta,2px 2px 15px magenta,2px 2px 15px magenta;
+    }
+    #inset
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        background-color: gray;
+        color: white;
+        text-shadow: -1px -1px 4px black;
+    }
+</style>
+<body>
+
+    <h1 id="h1">Simple</h1>
+    <h1 id="h2">Blured</h1>
+    <h1 id="h3">Multiple</h1>
+    <h1 id="h4">Glowing</h1>
+    <div id="inset">Inset</div>
+    
+</body>
+</html>

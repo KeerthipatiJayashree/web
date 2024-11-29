@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header
+{
+    margin-top: 5px;
+}
+main
+{
+    font-family: cursive;
+}
+.container
+{
+    display: flex;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 2px #7a7676;
+    justify-content: center;
+}
+.content
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    border: 1px solid gray;
+    padding: 20px;
+    width: 25em;
+}
+.right
+{
+    padding: 120px;
+}
+.btn 
+{
+    display: flex;
+    align-items: center;
+    gap: 5px;    /*Without display flex gap will not work*/
+}
+button
+{
+    padding: 5px;
+    border-radius: 5px;
+}
+.btn a
+{
+    text-decoration: none;
+}

@@ -1,0 +1,45 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    height: 400px;
+    width: 400px;
+    border: solid red;
+    display: grid;
+    /* grid-template-columns: 100px 50px 100px 100px; */
+    grid-template-columns: repeat(3,auto);
+    /* justify-content: center;   justify content center is always horizontal in display grid */
+    /* align-items: center; */
+    /* place-items:center */
+    /* grid-template-columns: 2fr 3fr 1fr;  Fractions */
+    row-gap: 2px;
+    column-gap: 5px;
+    /* gap: 10px;  Both row and column will get gap */
+}
+.box
+{
+    background-color: olivedrab;
+    color: black;
+    border: 1px solid black;
+    font-size: 20px;
+}
+.box1
+{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /* grid-column: 1/4;  starts at 1 end at 4*/
+}
+.box3
+{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+/* .box4
+{
+    grid-column-start:3 ;
+    grid-column-end: 5;
+} */

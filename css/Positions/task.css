@@ -1,0 +1,57 @@
+/* .container
+{
+     background-color: olivedrab; 
+     height: 400px;
+    width: 400px;
+    border: 2px solid black; 
+} */
+
+.box1
+{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    border-radius: 20px;
+}
+.box2
+{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    border-radius: 20px;
+}
+.box3
+{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    border-radius: 20px;
+}
+.box4
+{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    border-radius: 20px;
+}
+/* .box5
+{
+    top: 50%;
+    left: 50%;
+} */

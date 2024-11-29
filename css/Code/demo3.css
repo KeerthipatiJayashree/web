@@ -1,0 +1,24 @@
+#mydiv
+{
+    height: 100vh;
+}
+#p1
+{
+    height: 25%;
+    background-color: aqua;
+}
+#p2
+{
+    height: 25%;
+    background-color: olivedrab;
+}
+#p3
+{
+    height: 25%;
+    background-color: orange;
+}
+#p4
+{
+    height: 25%;
+    background-color: palevioletred
+}

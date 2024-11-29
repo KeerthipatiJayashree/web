@@ -1,0 +1,195 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 50px;
+}
+.navigation
+{
+    display: flex;
+    gap: 15px;
+}
+.navigation>a
+{
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 15px;
+    color: rgb(89, 87, 87);
+}
+section
+{
+    padding: 50px 200px;
+    font-family: cursive;
+}
+#banner
+{
+    display: flex;
+    justify-content: space-around;       /*To make space*/
+    align-items: center;                /*To make logo and contents center*/
+    gap: 30px;
+}
+.right
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+button
+{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(117, 169, 236);
+}
+button>a
+{
+    text-decoration: none;
+    font-family: cursive;
+}
+.icons
+{
+    display: flex;
+    gap: 10px;
+}
+.icons a
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.heading
+{
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+    color: black;
+}
+#about
+{
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: center;
+    gap: 40px;
+}
+#about>div
+{
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 40px 80px;
+}
+.l>p
+{
+    color: rgb(89, 87, 87);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.r>p
+{
+    color: rgb(89, 87, 87);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content
+{
+    font-family: cursive;
+    display: flex;
+    margin-left: 5em;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+#exp
+{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    /* justify-content:space-around; */
+}
+#exp>div
+{
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 20px;
+}
+#projects
+{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+#projects>div
+{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+.project>p
+{
+    color: rgb(89, 87, 87);
+}
+#contact
+{
+    display: flex;
+    justify-content: center;
+}
+.contact
+{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 40em;
+    height: 5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact a
+{
+    text-decoration: none;
+}
+.box
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+}
+.frontend h3
+{
+    text-align: center;
+}
+.tools h3
+{
+    text-align: center;
+}
+.container
+{
+    display: grid;
+    height: 400px;
+    width: 350px;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+}
+footer
+{
+    font-family: cursive;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+

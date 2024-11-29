@@ -1,0 +1,9 @@
+body
+{
+    /*background-color: olivedrab;*/
+    /*background-color: rgb(150,20,200); */
+
+    /*background: linear-gradient(yellow,orange);*/
+    background: radial-gradient(yellow,orange);
+    height: 100vh;
+}
